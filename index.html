@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github Username </title>
+    <!-- Set the title of the webpage -->
+    <title>Github Username</title>
+    <!-- Link to an external stylesheet for styling -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Basic Header or nav bar section which includes only logo -->
     <header>
+      <!-- Navigation section, could include more links in the future -->
       <nav>
+        <!-- Insert the logo image -->
         <img src="Images/25231.png" alt="#">
       </nav>
     </header>
@@ -17,9 +21,12 @@
     <!-- Search Bar section where you can enter the github username -->
     <br /><br /><br />
     <div>
+      <!-- Heading for the search section -->
       <h1>Github User Search</h1>
       <br />
+      <!-- Form for entering the username -->
       <form id="myform" autocomplete="off">
+        <!-- Input field for username -->
         <div class="form-group">
           <input
             type="text"
@@ -32,10 +39,13 @@
 
         <!-- Button Section -->
         <div class="form-group">
+          <!-- Button to initiate the user search -->
           <button class="button">Search User</button>
         </div>
       </form>
+      <!-- Container for displaying search results -->
       <div id="result"></div>
+      <!-- Include JavaScript file for interactive functionality -->
       <script src="script.js"></script>
     </div>
   </body>
